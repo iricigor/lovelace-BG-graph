@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-@customElement('my-card')
-export class MyCard extends LitElement {
+@customElement('BG-graph')
+export class BGGraph extends LitElement {
   @property() name = 'World';
 
   static styles = css`
@@ -21,6 +21,6 @@ export class MyCard extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'my-card': MyCard;
+    'BG-graph': BGGraph;
   }
 }
