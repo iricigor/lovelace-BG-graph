@@ -1,0 +1,5 @@
+{
+    "name": "Blood Glucose Graph Card",
+    "render_readme": true,
+    "filename": "dist/BG-graph.js"
+  }
